@@ -14,9 +14,9 @@ public class IPAddr
     public IPAddr(String ipstr){
         bytes = new int[4];
         String[] bits = ipstr.split("\\.");
-        System.out.println("length of bits " + bits.length);
+
         for(int index = 0; index<4 && index < bits.length; index++){
-            System.out.println ("index " + index + "bits[index]" + bits[index]);
+
             bytes[index] = new Integer(bits[index]);
         }
     }

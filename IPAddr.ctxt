@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=IPAddr
+comment1.params=a\ b\ c\ d
+comment1.target=IPAddr(int,\ int,\ int,\ int)
+comment2.params=ipstr
+comment2.target=IPAddr(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

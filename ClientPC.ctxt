@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ClientPC
+comment1.params=mac_address
+comment1.target=ClientPC(java.lang.String)
+comment2.params=
+comment2.target=IPAddr\ getIPaddress()
+comment3.params=
+comment3.target=java.lang.String\ getMacAddress()
+comment4.params=ip_address
+comment4.target=void\ setIPAddress(IPAddr)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

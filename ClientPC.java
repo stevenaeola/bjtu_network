@@ -1,5 +1,5 @@
 
-public class ClientPC
+public class ClientPC implements DeviceInterface
 {
    private IPAddr ip_address;
    private String mac_address;
@@ -16,11 +16,11 @@ public class ClientPC
        return ip_address;
     }
     
-    public String getMACaddress(){
+    public String getMacAddress(){
        return mac_address;
     }
     
-    public void setIPaddress(IPAddr ip_address){
+    public void setIPAddress(IPAddr ip_address){
         this.ip_address = ip_address;
     }
     

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Network
+comment1.params=
+comment1.target=Network()
+comment2.params=
+comment2.target=int\ getNumberOfPCs()
+comment3.params=device
+comment3.target=void\ addDevice(DeviceInterface)
+comment4.params=
+comment4.target=void\ addPC()
+comment4.text=\n\ interactive\ addition\ of\ ClientPC\n
+comment5.params=device
+comment5.target=void\ removeDevice(DeviceInterface)
+comment6.params=
+comment6.target=void\ printPCs()
+numComments=7

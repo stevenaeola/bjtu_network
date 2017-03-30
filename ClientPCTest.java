@@ -44,7 +44,7 @@ public class ClientPCTest
     {
         IPAddr iPAddr1 = new IPAddr(129, 234, 0, 2);
         ClientPC clientPC1 = new ClientPC("1234356");
-        clientPC1.setIPaddress(iPAddr1);
+        clientPC1.setIPAddress(iPAddr1);
         assertEquals(" \n129.234.0.2 1234356", clientPC1.toString());
     }
 
@@ -52,7 +52,7 @@ public class ClientPCTest
     public void setIP(){
         IPAddr iPAddr1 = new IPAddr(129, 234, 0, 2);
         ClientPC clientPC1 = new ClientPC("1234356");
-        clientPC1.setIPaddress(iPAddr1);
+        clientPC1.setIPAddress(iPAddr1);
         assertEquals(clientPC1.getIPaddress(), iPAddr1);
 
     }

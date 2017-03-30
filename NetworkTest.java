@@ -52,15 +52,15 @@ public class NetworkTest
     @Test
     public void addOnePCSize()
     {
-        network1.addPC(clientPC1);
+        network1.addDevice(clientPC1);
         assertEquals(1, network1.getNumberOfPCs());
     }
 
     @Test
     public void removePCsize()
     {
-        network1.addPC(clientPC1);
-        network1.removePC(clientPC1);
+        network1.addDevice(clientPC1);
+        network1.removeDevice(clientPC1);
         assertEquals(0, network1.getNumberOfPCs());
     }
 }
