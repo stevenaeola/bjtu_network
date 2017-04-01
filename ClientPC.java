@@ -8,6 +8,7 @@ public class ClientPC implements DeviceInterface
     private String manufacturer;
     private String model;
 
+
     public ClientPC(String mac_address, String manufacturer, String model){
         this.mac_address = mac_address;
         this.manufacturer = manufacturer;
@@ -23,6 +24,22 @@ public class ClientPC implements DeviceInterface
         model = sc.nextLine();
         ip_address = new IPAddr(sc.nextLine());
         mac_address = sc.nextLine();
+    }
+
+    public String getManufacturer() {
+	return manufacturer;
+    }
+
+    public void setManufacturer(String manufacturer) {
+	this.manufacturer = manufacturer;
+    }
+
+    public String getModel() {
+	return model;
+    }
+
+    public void setModel(String model) {
+	this.model = model;
     }
 
     public IPAddr getIPaddress(){
